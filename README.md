@@ -6,6 +6,7 @@
 ## 一、借鉴说明：
 本demo借鉴了很多网上的例子：
 例子一：https://juejin.cn/post/7044020172109119496 （基本的使用）
+
 例子二：https://juejin.cn/post/7205843311340470329#heading-10 （合并行的操作和配置参考）
 
 ## 二、第一个demo利用nodejs将json数据转成表格数据并生成word
