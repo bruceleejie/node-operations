@@ -25,9 +25,9 @@ demo中有两种生成方式：
 ### 1、文件介绍：
 注意：file文件夹里是我准备的可以直接使用的json文件，虽然都脱敏了，但不可商用，如果出现纠纷，demo发布者本人不负责任，商用者负责！！！！！
 
-generateDoc.ts是我的初始demo；
-generateDocArrFunc.ts是我领导的思路，也就是两种方法中的第二个，代码量少，适合有父子层级的json数据；
-generateDocFlatFunc.ts是我的思路，也就是两种方法中的第一个，代码量多一些，适合每个子元素有父级唯一标识的json数据；
+> generateDoc.ts是我的初始demo；
+> generateDocArrFunc.ts是我领导的思路，也就是两种方法中的第二个，代码量少，适合有父子层级的json数据；
+> generateDocFlatFunc.ts是我的思路，也就是两种方法中的第一个，代码量多一些，适合每个子元素有父级唯一标识的json数据；
 
 
 
