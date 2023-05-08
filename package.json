@@ -1,0 +1,24 @@
+{
+  "name": "operation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startFlat": "set NODE_ENV=location&& ts-node ./src/generateDocFlatFunc.ts",
+    "startArr": "set NODE_ENV=location&& ts-node ./src/generateDocArrFunc.ts",
+    "startDemo": "set NODE_ENV=location&& ts-node ./src/file/generateDoc.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.12",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "officegen": "^0.6.5",
+    "ts-node-dev": "^2.0.0"
+  }
+}
