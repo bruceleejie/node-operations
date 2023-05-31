@@ -28,5 +28,12 @@ generateDoc.ts是我的初始demo；
 generateDocArrFunc.ts是我领导的思路，也就是两种方法中的第二个，代码量少，适合有父子层级的json数据；
 generateDocFlatFunc.ts是我的思路，也就是两种方法中的第一个，代码量多一些，适合每个子元素有父级唯一标识的json数据；
 
+> 2023.05.29更新于北京
+
+这次又提出了更新优化需求：
+设定word文档边距，把表头过多的表格变成纵向表格，表头设置颜色，表格序号列设定宽度保持不变；
+
+更新后的文件名为：generateDocArrFuncPlus.js 新建了一个index.ts来调用这个文件
+
 
 

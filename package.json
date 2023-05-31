@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "startFlat": "set NODE_ENV=location&& ts-node ./src/generateDocFlatFunc.ts",
     "startArr": "set NODE_ENV=location&& ts-node ./src/generateDocArrFunc.ts",
+    "startArrPlus": "set NODE_ENV=location&& ts-node ./src/index.ts",
     "startDemo": "set NODE_ENV=location&& ts-node ./src/file/generateDoc.ts"
   },
   "keywords": [],
